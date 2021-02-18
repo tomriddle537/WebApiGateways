@@ -48,7 +48,6 @@ A [React Basic UI][react-link] for the WebApi Gateway solution.
 [react-link]: https://github.com/tomriddle537/React-Basic-UI/
 
 
-
 ## ENDPOINTS:
 
 ### Get all Gateways

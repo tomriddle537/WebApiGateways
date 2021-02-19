@@ -15,7 +15,7 @@ before_build:
   - cmd: dotnet restore ./WebApiGateways/WebApiGateways.csproj --verbosity m
 build_script:
   # output 
-  - cmd: dotnet publish ./src/src.csproj
+  - cmd: dotnet publish ./WebApiGateways/WebApiGateways.csproj
 after_build:
   # For once the build has completed
 artifacts:

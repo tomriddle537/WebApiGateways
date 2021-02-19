@@ -28,7 +28,7 @@ test_script:
   - cmd: dotnet restore ./ApiUnitTest/WebApiUnitTest.csproj --verbosity m
   # run the unit tests (requires changing into the test directory)
   - cmd: cd ApiUnitTest
-  - cmd: dotnet xunit
+  - cmd: dotnet test
 on_finish :
   # any cleanup in here
 deploy: off

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiGateways", "WebApiGateways\WebApiGateways.csproj", "{C91F6104-E693-4604-849B-2716248F25EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiUnitTest", "ApiUnitTest\WebApiUnitTest.csproj", "{270BC48A-D7A3-495C-AD0C-46536D37C2D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C91F6104-E693-4604-849B-2716248F25EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91F6104-E693-4604-849B-2716248F25EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91F6104-E693-4604-849B-2716248F25EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91F6104-E693-4604-849B-2716248F25EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270BC48A-D7A3-495C-AD0C-46536D37C2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270BC48A-D7A3-495C-AD0C-46536D37C2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270BC48A-D7A3-495C-AD0C-46536D37C2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270BC48A-D7A3-495C-AD0C-46536D37C2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {505EF1B2-3D0C-441C-AD83-123EAC6CFF5A}
+	EndGlobalSection
+EndGlobal

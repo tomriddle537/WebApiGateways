@@ -1,0 +1,29 @@
+POST
+https://localhost:44306/api/gateways
+{
+    "SerialNumber":"GW-001",        
+     "Name": "GateWay 1",
+     "IpAddress":"10.0.0.1"
+}
+POST
+https://localhost:44306/api/devices/GW-001
+{
+    "UID": 1,
+    "Vendor": "Device Vendor",
+    "Date": "2021-02-14 22:43:00",
+    "Status": true
+}
+
+GET
+https://localhost:44306/api/gateways
+GET
+https://localhost:44306/api/gateways/GW-003
+GET
+https://localhost:44306/api/devices/1
+GET
+https://localhost:44306/api/devices/gw/GW-001
+
+DELETE
+https://localhost:44306/api/gateways/GW-001
+DELETE
+https://localhost:44306/api/devices/GW-001/13

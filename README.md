@@ -7,9 +7,9 @@ REST service (JSON/HTTP) for storing information about gateways and their associ
 * Programming language: C#
 * Framework: Asp.Net Core 2.2.0
 * Database: MSSQLLocalDB
-* Automated build: 
+* Automated build: AppVeyor
 
-Instructions :<br>
+Instructions (Manual): <br>
 - Open provided 'WebApiGateways.sln' file with Visual Studio
 - Resolve any dependency issue
 - Go to 'Tools/NuGet Package Manager/Package Manager Console', write and execute: Update-database
@@ -36,15 +36,16 @@ For Devices controller:<br>
 - Add A Device To A Full Gateway
 - Delete A Devices By Its UID
 
-Instructions :<br>
+Instructions (Manual): <br>
 - Open provided 'WebApiGateways.sln' file with Visual Studio
 - Resolve any dependency issue
 - Go to 'Test/Windows/Test Explorer' and click on: Run All
 - Done
 
 ### Project 3 React Basic UI
+A [React Basic UI][react-link] for the WebApi Gateway solution.
 
-
+[react-link]: https://github.com/tomriddle537/React-Basic-UI/
 
 
 ## ENDPOINTS:
